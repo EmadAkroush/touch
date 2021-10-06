@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: yekan;
+    src: url('WebFonts/fonts/woff2/IRANYekanWebMedium.woff2');
+  }
+
+
+
+
+
+
+.container{
+    direction: rtl;
+    font-family: yekan;
+}
+.section1{
+    display: grid;
+    width: 90%;
+    grid-template-columns: auto auto;
+    grid-column-gap: 5%;
+    margin: 20px auto;
+}
+.section2{
+    display: grid;
+    
+}

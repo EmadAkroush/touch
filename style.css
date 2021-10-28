@@ -1,8 +1,8 @@
 
 @font-face {
-    font-family: yekan;
-    src: url('WebFonts/fonts/woff2/IRANYekanWebMedium.woff2');
-  }
+    font-family: IRANYekanWebBold;
+    src: url('webfonts/fonts/ttf/IRANYekanWebBold.ttf');
+}
 
 /* wave header  css */
 
@@ -19,17 +19,32 @@
         transform: translateX(-50%) translateZ(0)
     }
 }
-
+.body-touch{
+    overflow-x: hidden;
+}
 .waveWrapper {
     height: 50px;
     position: relative;
     left: 0;
     right: 0;
     bottom: 0;
-    top: 0;
+    top: -7;
 
     
 }
+.bottun-touch{
+    width: 60%;
+    display: grid;
+    grid-template-areas: auto auto;
+}
+.button-right{
+    width: 50%;
+    
+}
+.button-left{
+    width: 50;
+
+} 
 
 .waveWrapperInner {
     position: absolute;
@@ -90,13 +105,17 @@
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
+.part-right-h1{
+    color: #61CE70;
+    padding: 80px 0 80px 0;
+}
 
 
-
-.container{
+.container-fluid{
     direction: rtl;
-    font-family: yekan;
+    font-family: IRANYekanWebBold;
     max-width: 100%;
+    
 }
 .section1{
     display: grid;
@@ -251,6 +270,7 @@
 }
 
 
+<<<<<<< HEAD
 
 /* mobile respansive */
 
@@ -283,3 +303,43 @@
         display: none;
     }
   }
+=======
+/* containers */
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 840px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1020px;
+  }
+}
+>>>>>>> 7b593251ab5dfac81f705c186953ee1a9a5c12a1

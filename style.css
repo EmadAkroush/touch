@@ -34,7 +34,7 @@
     
 }
 .bottun-touch{
-    width: 60%;
+    width: 80%;
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 2%;
@@ -358,14 +358,55 @@
 }
 .up-section4{
     box-shadow: 0 4px 8px 0 rgba(97, 206, 112, 0.5), 0 6px 20px 0 rgba(97, 206, 112, 0.4);
-    height: 500px;
+    height: 400px;
+    border-radius: 25px;
 }
 .down-section4{
     box-shadow: 0 4px 8px 0 rgba(97, 206, 112, 0.5), 0 6px 20px 0 rgba(97, 206, 112, 0.4);
+    height: 470px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+.img-setion4{
+    padding-top: 15px;
 }
 
 
+.custom-shape-divider-top-1635465565 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+}
 
+.custom-shape-divider-top-1635465565 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.part-one{
+ 
+}
+.part-two{
+    padding-top: 50px;
+}
+.part-three{
+    padding-top: 120px;
+    
+    
+}
+.part-three-down{
+    clip-path: polygon(0 13%, 100% 0%, 100% 100%, 0% 100%);
+
+    
+}
+
+.part-two-down{
+    clip-path: polygon(0 0, 100% 13%, 100% 100%, 0% 100%);
+
+}
+.part-one-down{
+    clip-path: polygon(0 13%, 100% 0%, 100% 100%, 0% 100%);
+}
 /* containers */
 .container,
 .container-fluid,
